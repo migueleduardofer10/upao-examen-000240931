@@ -1,11 +1,12 @@
 {
-  "name": "caso-parcial",
+  "name": "upao-examen-000240931",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "json:server": "json-server --server/watch db.json",
     "test": "ng test"
   },
   "private": true,
